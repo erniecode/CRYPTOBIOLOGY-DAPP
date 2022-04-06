@@ -1,14 +1,3 @@
-a,
-a:link,
-a:visited {
-  @apply font-semibold;
-  @apply text-primary-600;
-
-  &:hover {
-    @apply underline;
-  }
-}
-
 strong {
   @apply font-semibold;
 }

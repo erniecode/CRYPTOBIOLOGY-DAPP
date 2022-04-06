@@ -1,14 +1,14 @@
-a,
-a:hover,
-a:focus,
-a:active {
+.btnLinkText,
+.btnLinkText:hover,
+.btnLinkText:focus,
+.btnLinkText:active {
   text-decoration: none;
   outline: none;
 }
 
-a,
-a:active,
-a:focus {
+.btnLinkText,
+.btnLinkText:active,
+.btnLinkText:focus {
   color: #ffffff;
   text-decoration: none;
   transition-timing-function: ease-in-out;

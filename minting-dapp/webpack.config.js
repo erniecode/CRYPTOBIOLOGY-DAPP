@@ -89,25 +89,26 @@ Encore
   //}))
   .addPlugin(new NodePolyfillPlugin());
 
-module.exports =
-  /*Encore.getWebpackConfig();*/
-  {
-    module: {
-      rules: [
-        {
-          test: /\.js$/,
-          exclude: /node_modules/,
-          use: {
-            loader: 'babel-loader',
-          },
+module.exports = Encore.getWebpackConfig();
+/*
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
         },
-        {
-          test: /\.(png|jpe?g|mp4)$/i,
-          exclude: /node_modules/,
-          use: {
-            loader: 'file-loader',
-          },
+      },
+      {
+        test: /\.(png|jpe?g|mp4)$/i,
+        exclude: /node_modules/,
+        use: {
+          loader: 'file-loader',
         },
-      ],
-    },
-  };
+      },
+    ],
+  },
+};
+*/

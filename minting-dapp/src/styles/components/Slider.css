@@ -7,7 +7,7 @@
 .tech-slideshow > div {
   height: 200px;
   width: 6526px;
-  background: url('./assets/images/ImageRousel.png');
+  background: url('../../images/ImageRousel.png');
   position: absolute;
   top: 0;
   left: 0;
