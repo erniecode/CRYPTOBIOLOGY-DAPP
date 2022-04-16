@@ -43,7 +43,40 @@
   font-size: 100px;
 }
 
-.logo { 
-  width: 200px;
-  
+@font-face {
+  font-family: 'Neo Sans Pro';
+  src: url('//db.onlinewebfonts.com/t/c38f2cc711985becf7550d75271b1175.eot');
+  src: url('//db.onlinewebfonts.com/t/c38f2cc711985becf7550d75271b1175.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/c38f2cc711985becf7550d75271b1175.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/c38f2cc711985becf7550d75271b1175.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/c38f2cc711985becf7550d75271b1175.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/c38f2cc711985becf7550d75271b1175.svg#Neo Sans Pro')
+      format('svg');
+}
+
+.NeoSansPro {
+  font-family: 'Neo Sans Pro';
+}
+
+@font-face {
+  font-family: 'Retro Arcade Terror';
+  src: url('//db.onlinewebfonts.com/t/fb7518057568bb9fd47395155dcc0e5b.eot');
+  src: url('//db.onlinewebfonts.com/t/fb7518057568bb9fd47395155dcc0e5b.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/fb7518057568bb9fd47395155dcc0e5b.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/fb7518057568bb9fd47395155dcc0e5b.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/fb7518057568bb9fd47395155dcc0e5b.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/fb7518057568bb9fd47395155dcc0e5b.svg#Retro Arcade Terror')
+      format('svg');
+}
+
+.RetroArcadeTerror {
+  font-family: 'Retro Arcade Terror';
 }

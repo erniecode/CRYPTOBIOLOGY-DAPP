@@ -37,7 +37,7 @@
 
       h2 {
         @apply font-semibold;
-        @apply text-primary-600 text-xl text-center;
+        @apply text-xl text-center;
       }
 
       p {
@@ -56,11 +56,6 @@
       input {
         @apply rounded-t-lg;
         @apply rounded-b-none;
-      }
-
-      button {
-        @apply rounded-b-lg;
-        @apply rounded-t-none;
       }
     }
   }
