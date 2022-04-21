@@ -1,0 +1,68 @@
+.diagonalLeft {
+  transform: skewY(-5deg);
+}
+.diagonalRight {
+  transform: skewY(5deg);
+}
+.marPurple {
+  /*   background: black; */
+  background: rgb(157, 20, 237);
+  color: white;
+}
+
+.msg {
+  padding-bottom: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 6s linear infinite;
+  display: inline-block;
+}
+
+.marGreen {
+  /*   background: black; */
+  background: rgb(20, 237, 146);
+  color: white;
+}
+
+.marWhite {
+  /*   background: black; */
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.marquee-container {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.marquee-container span {
+  font-size: 2em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* Starting position */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: marquee-container 25s linear infinite;
+  -webkit-animation: marquee-container 25s linear infinite;
+  animation: marquee-container 25s linear infinite;
+}
+
+@keyframes marquee-container {
+  0% {
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%);
+  }
+}
