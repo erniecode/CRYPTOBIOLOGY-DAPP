@@ -1,6 +1,6 @@
 .account-block {
   padding: 0;
-  background-image: url(https://bootdey.com/img/Content/bg1.jpg);
+  background-image: url('../../images/CBGif.gif');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -32,8 +32,17 @@
   color: #5369f8 !important;
 }
 
+.story-text {
+  color: rgb(0, 255, 106);
+}
+
 .btn-theme {
   background-color: #5369f8;
   border-color: #5369f8;
-  color: #fff;
+  color: #5369f8;
+}
+
+.story-card {
+  background-color: rgba(0, 0, 0, 0.308);
+  box-shadow: 0 6px 20px rgba(210, 143, 255, 0.527);
 }

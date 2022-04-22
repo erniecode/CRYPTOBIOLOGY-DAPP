@@ -284,7 +284,7 @@ export default class Dapp extends React.Component<Props, State> {
           <div className='no-wallet mintingWidget'>
             {!this.isWalletConnected() ? (
               <button
-                className='primary bg-success'
+                className='btn btn-primary'
                 disabled={this.provider === undefined}
                 onClick={() => this.connectWallet()}
               >
