@@ -4,14 +4,17 @@ import Dapp from '../Dapp';
 import Hero2 from '../Hero2';
 import HeroSection from '../HeroSection';
 import Marquee from '../Marquee';
+import QA from '../QA';
 import Slider from '../Slider';
 import Spotify from '../Spotify';
 import Story from '../Story';
+import Team from '../Team';
 
 function Home() {
   return (
     <>
       <Hero2 />
+      <Dapp />
       <Marquee
         text=' • Get to know every cryptid as their story unfolds • '
         side='Left'
@@ -24,8 +27,12 @@ function Home() {
         icon='fa fa-brands fa-spotify'
       />
       <Spotify />
-      <Dapp />
-      <About />
+      <QA />
+      <Marquee
+        text=' • A unique creation by Ethiak Labs members • '
+        icon='fa fa-user'
+      />
+      <Team />
     </>
   );
 }

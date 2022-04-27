@@ -10,34 +10,28 @@ const Navbar2: React.FC<{}> = () => {
     <nav className='navbar2'>
       <Link to='/' className='navbar-logo'>
         <img src={eLogo} alt='' className='logo2' />
-        <h5 className='NeoSansPro'>by ethiak</h5>
+        <h5 className='NeoSansPro h1Size'>by ethiak</h5>
       </Link>
 
       <div className='row-form ml-auto'>
-        <Link
+        <a
           className='social-icon-link Twitter'
-          to='/'
-          target='_blank'
-          aria-label='Twitter'
+          href='https://twitter.com/Cryptobiology_'
         >
           <img src={TwitterIcon} alt='' className='icons' />
-        </Link>
-        <Link
+        </a>
+        <a
           className='social-icon-link Twitter'
-          to='/'
-          target='_blank'
-          aria-label='Twitter'
+          href='https://twitter.com/Cryptobiology_'
         >
           <img src={DiscordIcon} alt='' className='icons' />
-        </Link>
-        <Link
+        </a>
+        <a
           className='social-icon-link Twitter'
-          to='/'
-          target='_blank'
-          aria-label='Twitter'
+          href='https://twitter.com/Cryptobiology_'
         >
           <img src={OpenseaIcon} alt='' className='icons' />
-        </Link>
+        </a>
       </div>
     </nav>
   );

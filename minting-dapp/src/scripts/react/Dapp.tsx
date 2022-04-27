@@ -194,7 +194,7 @@ export default class Dapp extends React.Component<Props, State> {
 
   render() {
     return (
-      <>
+      <div className='container'>
         {this.isNotMainnet() ? (
           <div className='not-mainnet'>
             You are not connected to the main network.
@@ -284,7 +284,7 @@ export default class Dapp extends React.Component<Props, State> {
           <div className='no-wallet mintingWidget'>
             {!this.isWalletConnected() ? (
               <button
-                className='btn btn-primary'
+                className='btn btn-outline-primary w3-large w3-round-xxlarge w3-padding-large'
                 disabled={this.provider === undefined}
                 onClick={() => this.connectWallet()}
               >
@@ -332,7 +332,7 @@ export default class Dapp extends React.Component<Props, State> {
             ) : null}
           </div>
         ) : null}
-      </>
+      </div>
     );
   }
 
