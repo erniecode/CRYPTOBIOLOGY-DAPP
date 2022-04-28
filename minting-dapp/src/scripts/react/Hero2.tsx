@@ -12,6 +12,7 @@ const Hero2: React.FC<{}> = () => {
       <h1 className='RetroArcadeTerror'>Cryptobiology</h1>
       <h4>From the world of cryptids to the crypto world…</h4>
       <br />
+      <br />
     </section>
   );
 };
