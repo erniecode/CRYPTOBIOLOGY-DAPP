@@ -38,7 +38,8 @@
     "dev-server": "encore dev-server",
     "dev": "encore dev",
     "watch": "encore dev --watch",
-    "build": "encore production --progress"
+    "build": "encore production --progress",
+    "build-dapp": "cd ../smart-contract; yarn; yarn compile; cd ../minting-dapp; yarn; yarn build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1"

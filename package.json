@@ -1,0 +1,18 @@
+{
+  "name": "@sosality/nft-erc721-collection-dapp",
+  "description": "An all-in-one solution for ERC721 collections.",
+  "author": "Ernesto Sosa <ernisosa@gmail.com>",
+  "license": "MIT",
+  "version": "2.3.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neto94/CRYPTOBIOLOGY-DAPP"
+  },
+  "scripts": {
+    "build-dapp": "cd smart-contract; yarn; yarn compile; cd ../minting-dapp; yarn; yarn build"
+  },
+  "dependencies": {
+    "yarn": "^1.22.18"
+  }
+}
